@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META / BASICS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazing Business Landing Page</title>
+  <meta name="description" content="A modern, responsive business landing page to showcase services, build trust, and convert visitors into clients.">
+  <meta name="keywords" content="business landing page, web design, web development, services, portfolio, contact">
+  <meta name="author" content="Muhammad Khan">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Amazing Business Landing Page">
+  <meta property="og:description" content="Clean, modern landing page for client satisfaction and high conversion.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-cover.jpg">
+
+  <!-- FAVICON (optional) -->
+  <link rel="icon" href="assets/favicon.png">
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Amazing Business",
+    "url": "https://example.com",
+    "logo": "https://example.com/assets/logo.png",
+    "sameAs": [
+      "https://github.com/Muhammadkhan-2008"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- SKIP LINK -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p class="topbar__text">
+        🎉 New Year Offer: Get a modern landing page + basic SEO setup — limited slots!
+      </p>
+      <div class="topbar__actions">
+        <a class="topbar__link" href="#pricing">View Plans</a>
+        <a class="topbar__link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="header" id="home">
+    <div class="container header__inner">
+
+      <!-- BRAND -->
+      <a class="brand" href="#home" aria-label="Amazing Business Home">
+        <span class="brand__logo" aria-hidden="true">⬤</span>
+        <span class="brand__name">Amazing Business</span>
+      </a>
+
+      <!-- NAV -->
+      <nav class="nav" aria-label="Primary Navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+          <li class="nav__item"><a class="nav__link" href="#work">Work</a></li>
+          <li class="nav__item"><a class="nav__link" href="#testimonials">Testimonials</a></li>
+          <li class="nav__item"><a class="nav__link" href="#pricing">Pricing</a></li>
+          <li class="nav__item"><a class="nav__link" href="#faq">FAQ</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- HEADER CTA -->
+      <div class="header__cta">
+        <a class="btn btn--ghost" href="#work">See Portfolio</a>
+        <a class="btn btn--primary" href="#contact">Get a Quote</a>
+      </div>
+
+      <!-- MOBILE MENU BUTTON (UI only; JS optional later) -->
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero__grid">
+
+        <!-- HERO CONTENT -->
+        <div class="hero__content">
+          <p class="hero__eyebrow">Client-Satisfaction • Fast Delivery • Clean UI</p>
+
+          <h1 class="hero__title">
+            Grow your business with a
+            <span class="hero__highlight">high-converting</span>
+            landing page.
+          </h1>
+
+          <p class="hero__subtitle">
+            We design and build modern, responsive landing pages that help you get more leads,
+            more trust, and more sales — using clean HTML & CSS.
+          </p>
+
+          <div class="hero__buttons">
+            <a class="btn btn--primary" href="#pricing">Start Now</a>
+            <a class="btn btn--secondary" href="#services">Explore Services</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust-badges">
+              <div class="trust-badge">
+                <span class="trust-badge__icon" aria-hidden="true">✓</span>
+                <span class="trust-badge__text">Responsive Design</span>
+              </div>
+              <div class="trust-badge">
+                <span class="trust-badge__icon" aria-hidden="true">✓</span>
+                <span class="trust-badge__text">Clean Structure</span>
+              </div>
+              <div class="trust-badge">
+                <span class="trust-badge__icon" aria-hidden="true">✓</span>
+                <span class="trust-badge__text">Client-ready UI</span>
+              </div>
+              <div class="trust-badge">
+                <span class="trust-badge__icon" aria-hidden="true">✓</span>
+                <span class="trust-badge__text">Fast Delivery</span>
+              </div>
+            </div>
+
+            <div class="hero__mini-stats">
+              <div class="mini-stat">
+                <span class="mini-stat__num">24h</span>
+                <span class="mini-stat__label">Quick Turnaround</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-stat__num">100%</span>
+                <span class="mini-stat__label">Custom Layout</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-stat__num">SEO</span>
+                <span class="mini-stat__label">Basic Ready</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO VISUAL -->
+        <div class="hero__visual" aria-label="Hero preview panel">
+          <div class="preview-card">
+            <div class="preview-card__top">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+              <span class="preview-card__title">Live Preview</span>
+            </div>
+
+            <div class="preview-card__body">
+              <div class="preview-widget">
+                <h3 class="preview-widget__title">Lead Form</h3>
+                <p class="preview-widget__text">Capture visitors and convert them into clients.</p>
+                <div class="preview-form">
+                  <div class="preview-input"></div>
+                  <div class="preview-input"></div>
+                  <div class="preview-btn"></div>
+                </div>
+              </div>
+
+              <div class="preview-widget">
+                <h3 class="preview-widget__title">Service Highlights</h3>
+                <ul class="preview-list">
+                  <li class="preview-list__item">Clean UI Sections</li>
+                  <li class="preview-list__item">Trust Badges</li>
+                  <li class="preview-list__item">Testimonials</li>
+                </ul>
+              </div>
+
+              <div class="preview-widget">
+                <h3 class="preview-widget__title">Conversion CTA</h3>
+                <p class="preview-widget__text">Strong call-to-action button placements.</p>
+                <div class="preview-cta"></div>
+              </div>
+            </div>
+
+            <div class="preview-card__footer">
+              <p class="preview-card__footer-text">Designed for client satisfaction + trial demand projects.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LOGO STRIP / SOCIAL PROOF -->
+    <section class="logos">
+      <div class="container">
+        <p class="section__kicker">Trusted Layout Pattern</p>
+        <div class="logo-strip" aria-label="Brand logos">
+          <div class="logo-strip__item">BrandOne</div>
+          <div class="logo-strip__item">BrandTwo</div>
+          <div class="logo-strip__item">BrandThree</div>
+          <div class="logo-strip__item">BrandFour</div>
+          <div class="logo-strip__item">BrandFive</div>
+          <div class="logo-strip__item">BrandSix</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__kicker">Services</p>
+          <h2 class="section__title">Everything your business needs to look professional</h2>
+          <p class="section__desc">
+            Clients usually ask for the same things: clean design, responsiveness, trust signals, and a clear CTA.
+            This landing page includes all of them.
+          </p>
+        </header>
+
+        <div class="cards cards--3">
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">⚡</div>
+            <h3 class="card__title">Fast & Clean Layout</h3>
+            <p class="card__text">
+              Structured sections with proper spacing, headings, and content hierarchy.
+            </p>
+            <ul class="card__list">
+              <li>Hero + CTA</li>
+              <li>Service blocks</li>
+              <li>Trust badges</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📱</div>
+            <h3 class="card__title">Responsive Design</h3>
+            <p class="card__text">
+              Mobile-first patterns. Looks good on phones, tablets, and desktops.
+            </p>
+            <ul class="card__list">
+              <li>Flexible layout</li>
+              <li>Readable typography</li>
+              <li>CTA always visible</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🧠</div>
+            <h3 class="card__title">Conversion Focused</h3>
+            <p class="card__text">
+              Landing pages are not “just design” — they are built for conversion.
+            </p>
+            <ul class="card__list">
+              <li>CTA placements</li>
+              <li>Testimonials</li>
+              <li>FAQ handling</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <!-- EXTENDED SERVICES GRID (more depth) -->
+        <div class="feature-grid">
+
+          <div class="feature">
+            <h3 class="feature__title">Section Architecture</h3>
+            <p class="feature__text">Proper headings and semantic layout for readability.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Accessibility Basics</h3>
+            <p class="feature__text">Labels, alt text placeholders, and clear focus flow.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Trust Elements</h3>
+            <p class="feature__text">Logos, stats, testimonials, guarantees, badges.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Lead Capture</h3>
+            <p class="feature__text">Contact form section + CTA to reduce friction.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Pricing Section</h3>
+            <p class="feature__text">Clear packages help clients decide quickly.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">FAQ Section</h3>
+            <p class="feature__text">Handles objections and builds confidence.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Portfolio Layout</h3>
+            <p class="feature__text">Showcase previous work in a clean grid.</p>
+          </div>
+
+          <div class="feature">
+            <h3 class="feature__title">Footer & Links</h3>
+            <p class="feature__text">Professional footer structure with important pages.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT / STORY -->
+    <section class="section section--alt" id="about">
+      <div class="container about__grid">
+
+        <div class="about__content">
+          <p class="section__kicker">About</p>
+          <h2 class="section__title">Designed for real clients and real business goals</h2>
+          <p class="section__desc">
+            Most clients don’t want complicated stuff — they want a clean site that looks trustworthy and brings leads.
+            This landing page gives the “agency look” using pure HTML and CSS.
+          </p>
+
+          <div class="about__bullets">
+            <div class="bullet">
+              <span class="bullet__icon" aria-hidden="true">✓</span>
+              <div class="bullet__text">
+                <strong>Clarity:</strong> easy-to-scan sections that visitors understand fast.
+              </div>
+            </div>
+
+            <div class="bullet">
+              <span class="bullet__icon" aria-hidden="true">✓</span>
+              <div class="bullet__text">
+                <strong>Trust:</strong> proof blocks and testimonials that reduce doubt.
+              </div>
+            </div>
+
+            <div class="bullet">
+              <span class="bullet__icon" aria-hidden="true">✓</span>
+              <div class="bullet__text">
+                <strong>Action:</strong> CTA and contact flow that converts.
+              </div>
+            </div>
+          </div>
+
+          <div class="about__cta">
+            <a class="btn btn--primary" href="#contact">Work With Us</a>
+            <a class="btn btn--ghost" href="#faq">Read FAQ</a>
+          </div>
+        </div>
+
+        <div class="about__visual">
+          <div class="stat-cards">
+            <div class="stat-card">
+              <span class="stat-card__num">+35%</span>
+              <span class="stat-card__label">Better Conversion</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">2x</span>
+              <span class="stat-card__label">More Trust</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">1 Day</span>
+              <span class="stat-card__label">Quick Delivery</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">A+</span>
+              <span class="stat-card__label">Client Feel</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORK / PORTFOLIO -->
+    <section class="section" id="work">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__kicker">Work</p>
+          <h2 class="section__title">A portfolio layout clients love</h2>
+          <p class="section__desc">
+            Showcase layouts, landing pages, business pages, and UI projects. (Replace placeholders with real screenshots later.)
+          </p>
+        </header>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Landing Page — Service</h3>
+            <p class="portfolio-item__meta">HTML • CSS</p>
+          </article>
+
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Business Website — Layout</h3>
+            <p class="portfolio-item__meta">Responsive • Clean UI</p>
+          </article>
+
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Agency Style — Hero</h3>
+            <p class="portfolio-item__meta">CTA • Trust Blocks</p>
+          </article>
+
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Product Landing — Demo</h3>
+            <p class="portfolio-item__meta">Cards • Pricing</p>
+          </article>
+
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Contact Section — Pro</h3>
+            <p class="portfolio-item__meta">Form • Map area</p>
+          </article>
+
+          <article class="portfolio-item">
+            <div class="portfolio-item__thumb" aria-hidden="true"></div>
+            <h3 class="portfolio-item__title">Testimonials — Grid</h3>
+            <p class="portfolio-item__meta">Social proof</p>
+          </article>
+        </div>
+
+        <div class="section__center">
+          <a class="btn btn--secondary" href="#contact">Request a Similar Design</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section--alt" id="testimonials">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__kicker">Testimonials</p>
+          <h2 class="section__title">What clients say</h2>
+          <p class="section__desc">
+            Social proof is one of the highest-demand parts of client landing pages.
+          </p>
+        </header>
+
+        <div class="cards cards--3">
+
+          <article class="quote">
+            <p class="quote__text">
+              “Clean layout, fast delivery, and exactly what I needed for my business.”
+            </p>
+            <div class="quote__author">
+              <span class="quote__avatar" aria-hidden="true"></span>
+              <div class="quote__meta">
+                <strong>Client A</strong>
+                <span>Small Business Owner</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="quote">
+            <p class="quote__text">
+              “Professional feel — the sections and CTA placements are really good.”
+            </p>
+            <div class="quote__author">
+              <span class="quote__avatar" aria-hidden="true"></span>
+              <div class="quote__meta">
+                <strong>Client B</strong>
+                <span>Startup Founder</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="quote">
+            <p class="quote__text">
+              “Responsive design is perfect. The page looks great on mobile.”
+            </p>
+            <div class="quote__author">
+              <span class="quote__avatar" aria-hidden="true"></span>
+              <div class="quote__meta">
+                <strong>Client C</strong>
+                <span>Agency Partner</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__kicker">Pricing</p>
+          <h2 class="section__title">Simple packages for every business</h2>
+          <p class="section__desc">
+            Packages help clients decide faster. You can adjust prices later.
+          </p>
+        </header>
+
+        <div class="pricing-grid">
+
+          <article class="price-card">
+            <div class="price-card__top">
+              <h3 class="price-card__name">Starter</h3>
+              <p class="price-card__price">$19</p>
+              <p class="price-card__note">Best for simple landing</p>
+            </div>
+
+            <ul class="price-card__list">
+              <li>Hero + CTA</li>
+              <li>Services section</li>
+              <li>Basic footer</li>
+              <li>Responsive layout</li>
+            </ul>
+
+            <a class="btn btn--secondary price-card__btn" href="#contact">Choose Starter</a>
+          </article>
+
+          <article class="price-card price-card--featured">
+            <div class="price-card__badge">Most Popular</div>
+            <div class="price-card__top">
+              <h3 class="price-card__name">Business</h3>
+              <p class="price-card__price">$49</p>
+              <p class="price-card__note">Perfect for client demand</p>
+            </div>
+
+            <ul class="price-card__list">
+              <li>Everything in Starter</li>
+              <li>Testimonials + FAQ</li>
+              <li>Portfolio section</li>
+              <li>Better conversion layout</li>
+            </ul>
+
+            <a class="btn btn--primary price-card__btn" href="#contact">Choose Business</a>
+          </article>
+
+          <article class="price-card">
+            <div class="price-card__top">
+              <h3 class="price-card__name">Premium</h3>
+              <p class="price-card__price">$99</p>
+              <p class="price-card__note">For serious brands</p>
+            </div>
+
+            <ul class="price-card__list">
+              <li>Everything in Business</li>
+              <li>Extra sections + revisions</li>
+              <li>Basic SEO setup</li>
+              <li>Deploy help</li>
+            </ul>
+
+            <a class="btn btn--secondary price-card__btn" href="#contact">Choose Premium</a>
+          </article>
+
+        </div>
+
+        <div class="guarantee">
+          <div class="guarantee__icon" aria-hidden="true">🛡️</div>
+          <div class="guarantee__text">
+            <strong>Quality Guarantee:</strong> We deliver clean structure and a professional look. Your satisfaction matters.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__kicker">FAQ</p>
+          <h2 class="section__title">Common questions clients ask</h2>
+          <p class="section__desc">
+            FAQ reduces objections and increases conversions.
+          </p>
+        </header>
+
+        <div class="faq">
+
+          <details class="faq__item">
+            <summary class="faq__question">How long does it take to build?</summary>
+            <div class="faq__answer">
+              It depends on scope. Simple landing pages can be done quickly. Complex pages take longer.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">Can you change colors and content?</summary>
+            <div class="faq__answer">
+              Yes. Everything can be customized for your brand.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">Do you provide hosting?</summary>
+            <div class="faq__answer">
+              We can guide you. You can deploy on GitHub Pages, Netlify, or any hosting provider.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">Is it mobile friendly?</summary>
+            <div class="faq__answer">
+              Yes. The layout is designed with responsiveness in mind.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">Can this become a multi-page website later?</summary>
+            <div class="faq__answer">
+              Yes. You can add more pages (About, Contact, Services details) anytime.
+            </div>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact__grid">
+
+        <div class="contact__info">
+          <p class="section__kicker">Contact</p>
+          <h2 class="section__title">Let’s build your landing page</h2>
+          <p class="section__desc">
+            Fill the form and share your business details. We’ll respond with a plan and timeline.
+          </p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">📍</div>
+              <div class="contact-card__text">
+                <strong>Location</strong>
+                <span>Ghotki, Pakistan</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">✉️</div>
+              <div class="contact-card__text">
+                <strong>Email</strong>
+                <span>khanmuhammadkolachi390@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card__icon" aria-hidden="true">🔗</div>
+              <div class="contact-card__text">
+                <strong>GitHub</strong>
+                <span>Muhammadkhan-2008</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap">
+          <form class="form" action="#" method="post">
+            <div class="form__row">
+              <label class="form__label" for="name">Full Name</label>
+              <input class="form__input" id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+
+            <div class="form__row">
+              <label class="form__label" for="email">Email</label>
+              <input class="form__input" id="email" name="email" type="email" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form__row">
+              <label class="form__label" for="service">Service Needed</label>
+              <select class="form__select" id="service" name="service">
+                <option value="landing">Landing Page</option>
+                <option value="business">Business Website</option>
+                <option value="portfolio">Portfolio</option>
+                <option value="wordpress">WordPress</option>
+              </select>
+            </div>
+
+            <div class="form__row">
+              <label class="form__label" for="message">Project Details</label>
+              <textarea class="form__textarea" id="message" name="message" rows="6" placeholder="Tell us about your business and goals..." required></textarea>
+            </div>
+
+            <div class="form__row form__row--inline">
+              <label class="check">
+                <input class="check__input" type="checkbox" required>
+                <span class="check__text">I agree to be contacted about this request.</span>
+              </label>
+            </div>
+
+            <button class="btn btn--primary form__btn" type="submit">Send Message</button>
+
+            <p class="form__note">
+              Response time: within 24 hours (business days).
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="container newsletter__inner">
+        <div class="newsletter__text">
+          <h2 class="newsletter__title">Get updates & new UI templates</h2>
+          <p class="newsletter__desc">Subscribe to receive clean layout ideas and project updates.</p>
+        </div>
+        <form class="newsletter__form" action="#" method="post">
+          <label class="sr-only" for="newsletterEmail">Email</label>
+          <input id="newsletterEmail" class="newsletter__input" type="email" placeholder="Enter email" required>
+          <button class="btn btn--secondary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+
+      <div class="footer__brand">
+        <div class="brand brand--footer">
+          <span class="brand__logo" aria-hidden="true">⬤</span>
+          <span class="brand__name">Amazing Business</span>
+        </div>
+        <p class="footer__text">
+          Clean landing pages for client satisfaction, built using HTML & CSS with professional structure.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Quick Links</h3>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#home">Home</a></li>
+          <li><a class="footer__link" href="#services">Services</a></li>
+          <li><a class="footer__link" href="#work">Work</a></li>
+          <li><a class="footer__link" href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Company</h3>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#about">About</a></li>
+          <li><a class="footer__link" href="#faq">FAQ</a></li>
+          <li><a class="footer__link" href="#contact">Contact</a></li>
+          <li><a class="footer__link" href="#">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Social</h3>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="https://github.com/Muhammadkhan-2008">GitHub</a></li>
+          <li><a class="footer__link" href="#">LinkedIn</a></li>
+          <li><a class="footer__link" href="#">Facebook</a></li>
+          <li><a class="footer__link" href="#">Instagram</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 Amazing Business. All rights reserved.</p>
+      <p>Built by Muhammad Khan</p>
+    </div>
+  </footer>
+
+  <!-- MODAL (UI only, JS optional) -->
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal__content">
+      <h2 id="modalTitle">Request a Quote</h2>
+      <p>Share details and get a quick response.</p>
+      <a class="btn btn--primary" href="#contact">Go to Contact</a>
+      <button class="btn btn--ghost" type="button">Close</button>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+
+  <!-- END -->
+</body>
+</html>
